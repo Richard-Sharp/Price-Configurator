@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Price-Configurator/static/css/main.6986da98.chunk.css",
-    "main.js": "/Price-Configurator/static/js/main.65af6826.chunk.js",
-    "main.js.map": "/Price-Configurator/static/js/main.65af6826.chunk.js.map",
+    "main.css": "/Price-Configurator/static/css/main.444e7d67.chunk.css",
+    "main.js": "/Price-Configurator/static/js/main.23fd14f7.chunk.js",
+    "main.js.map": "/Price-Configurator/static/js/main.23fd14f7.chunk.js.map",
     "runtime-main.js": "/Price-Configurator/static/js/runtime-main.a1108d23.js",
     "runtime-main.js.map": "/Price-Configurator/static/js/runtime-main.a1108d23.js.map",
     "static/js/2.febcff31.chunk.js": "/Price-Configurator/static/js/2.febcff31.chunk.js",
@@ -10,14 +10,16 @@
     "static/js/3.61f6c2e0.chunk.js": "/Price-Configurator/static/js/3.61f6c2e0.chunk.js",
     "static/js/3.61f6c2e0.chunk.js.map": "/Price-Configurator/static/js/3.61f6c2e0.chunk.js.map",
     "index.html": "/Price-Configurator/index.html",
-    "static/css/main.6986da98.chunk.css.map": "/Price-Configurator/static/css/main.6986da98.chunk.css.map",
+    "static/css/main.444e7d67.chunk.css.map": "/Price-Configurator/static/css/main.444e7d67.chunk.css.map",
     "static/js/2.febcff31.chunk.js.LICENSE.txt": "/Price-Configurator/static/js/2.febcff31.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Price-Configurator/static/media/main-section-bg.fb13a0fd.jpg"
+    "static/media/PriceTag.module.css": "/Price-Configurator/static/media/add-card.4958dde2.png",
+    "static/media/App.css": "/Price-Configurator/static/media/main-section-bg.fb13a0fd.jpg",
+    "static/media/SettingsCard.module.css": "/Price-Configurator/static/media/xlsx2.c20c8350.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a1108d23.js",
     "static/js/2.febcff31.chunk.js",
-    "static/css/main.6986da98.chunk.css",
-    "static/js/main.65af6826.chunk.js"
+    "static/css/main.444e7d67.chunk.css",
+    "static/js/main.23fd14f7.chunk.js"
   ]
 }
