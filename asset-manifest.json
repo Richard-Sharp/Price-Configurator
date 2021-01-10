@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Price-Configurator/static/css/main.444e7d67.chunk.css",
-    "main.js": "/Price-Configurator/static/js/main.1e3bdeee.chunk.js",
-    "main.js.map": "/Price-Configurator/static/js/main.1e3bdeee.chunk.js.map",
+    "main.js": "/Price-Configurator/static/js/main.c2f789f0.chunk.js",
+    "main.js.map": "/Price-Configurator/static/js/main.c2f789f0.chunk.js.map",
     "runtime-main.js": "/Price-Configurator/static/js/runtime-main.a1108d23.js",
     "runtime-main.js.map": "/Price-Configurator/static/js/runtime-main.a1108d23.js.map",
     "static/js/2.febcff31.chunk.js": "/Price-Configurator/static/js/2.febcff31.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.a1108d23.js",
     "static/js/2.febcff31.chunk.js",
     "static/css/main.444e7d67.chunk.css",
-    "static/js/main.1e3bdeee.chunk.js"
+    "static/js/main.c2f789f0.chunk.js"
   ]
 }
