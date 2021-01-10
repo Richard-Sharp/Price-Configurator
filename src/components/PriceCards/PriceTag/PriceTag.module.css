@@ -54,30 +54,35 @@
 .add {
     width: 25px;
     height: 25px;
-    background-color: darkgreen;
     opacity: .0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../img/add-card.png");
 }
 
 .add:hover {
-    opacity: 1;
+    opacity: .8;
 }
 
 .delete {
     width: 25px;
     height: 25px;
-    background-color: red;
     opacity: .0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../../img/delete.png");
 }
 
 .delete:hover {
-    opacity: 1;
-    border: 1px solid black;
+    opacity: .8;
 }
 
 @media print {
