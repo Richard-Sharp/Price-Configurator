@@ -1,6 +1,7 @@
 * {
     font-family: 'Comfortaa', cursive;
     font-weight: normal;
+    scroll-behavior: smooth;
 }
 
 .App {
@@ -68,6 +69,11 @@
 
 .App-header-wrap p {
     font-size: 20px;
+}
+
+.App-header-wrap a {
+    text-decoration: none;
+    color: white;
 }
 
 .App-header-btn {

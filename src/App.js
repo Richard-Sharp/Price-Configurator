@@ -4,6 +4,7 @@ import PriceCard from "./components/PriceCards/PriceCard";
 // import {dataPrice} from "./dataBase/dataPrice"
 import SettingsCard from "./components/Setting/SettingsCard";
 import Footer from "./components/footer/Footer";
+import AddNewPrice from "./components/AddNewPrice/AddNewPrice";
 
 
 class App extends PureComponent {
@@ -60,7 +61,7 @@ class App extends PureComponent {
 			console.log("###: prices: ", prices);
 			const idx = prices.findIndex(item => item.id === id);
 			console.log("###: index: ", idx);
-			 const newPrices = [...prices];
+			let newPrices = [...prices];
 			newPrices.splice(idx + 1, 0, {
 				id: prices.length++,
 				name: "FAKE",
@@ -68,6 +69,21 @@ class App extends PureComponent {
 				edit: false
 			});
 			console.log("###: newPrices: ", newPrices);
+			return {
+				prices: newPrices
+			};
+		});
+	};
+
+	onAddNewPrice = (name = "", price = "") => {
+		this.setState(({prices}) => {
+			let newPrices = [...prices];
+			newPrices.push({
+				id: +new Date(),
+				name: name,
+				price: price,
+				edit: false
+			});
 			return {
 				prices: newPrices
 			};
@@ -83,11 +99,13 @@ class App extends PureComponent {
 						</div>
 						<h3>Генератор ценников для Тимохи</h3>
 						<p>Ver: 1.0.2</p>
-						<div className="App-header-btn">Начать работу</div>
+						<a href="#configurator">
+							<div className="App-header-btn">Начать работу</div>
+						</a>
 					</div>
 				</header>
 
-				<section className="App-section-settings">
+				<section id="configurator" className="App-section-settings">
 					<SettingsCard onChangeWidth={this.onChangeWidth}
 												onChangeHeight={this.onChangeHeight}
 												onChangeNameFontSize={this.onChangeNameFontSize}
@@ -104,6 +122,12 @@ class App extends PureComponent {
 										 onDeletedCard={this.onDeletedCard}
 										 onAddNewItem={this.onAddNewItem}
 					/>
+
+				</section>
+
+				<section className="App-section-addNewPrice">
+					<AddNewPrice onAddNewPrice={this.onAddNewPrice} />
+
 				</section>
 				<Footer />
 			</div>
