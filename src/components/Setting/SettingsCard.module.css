@@ -1,15 +1,58 @@
-.fileModule {
+.cover {
     display: flex;
     flex-direction: column;
     padding: 20px;
     align-items: center;
 }
+
+.fileModule {
+    border: 1px solid grey;
+    padding: 15px;
+}
 .uploadFile {
     width: 1050px;
-    border: 1px solid grey;
     padding-bottom: 25px;
 }
 
+.helpBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.helpBlock a {
+    text-decoration: none;
+    /*color: black;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.divXLSX {
+    width: 50px;
+    height: 50px;
+    margin: 5px 15px 5px 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../img/xlsx2.png");
+}
+
+.divConverter {
+    width: 50px;
+    height: 50px;
+    margin: 5px 15px 5px 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../../img/converter.png");
+}
+
+.btn {
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .wrap {
     width: 1200px;
