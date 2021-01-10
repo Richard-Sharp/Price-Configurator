@@ -71,7 +71,8 @@ const SettingsCard = (props) => {
 							</div>
 						</a>
 
-						<a href="../../files/price.xlsx" download
+						<a href="https://drive.google.com/file/d/1L3t34iwwum26oXU-EITxI2dJsMbmUvnP/view?usp=sharing"
+							 target="_blank"
 							 title="Скачать шаблон .xlsx">
 							<div className={style.divXLSX}>
 							</div>
