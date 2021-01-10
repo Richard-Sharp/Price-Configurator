@@ -79,7 +79,7 @@ class App extends PureComponent {
 			<div className="App">
 				<header className="App-header">
 					<h3>Генератор ценников для Тимохи</h3>
-
+					<h6>Ver: 1.0.1</h6>
 
 				</header>
 				<section className="App-section-settings">
