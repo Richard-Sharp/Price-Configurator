@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /*background: url(./img/bg-pattern.png) repeat;*/
-   background-color: rgba(241, 148, 201, .3);
+   /*background-color: rgba(241, 148, 201, .3);*/
 }
 
 code {

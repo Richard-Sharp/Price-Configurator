@@ -78,10 +78,15 @@ class App extends PureComponent {
 	return (
 			<div className="App">
 				<header className="App-header">
-					<h3>Генератор ценников для Тимохи</h3>
-					<h6>Ver: 1.0.1</h6>
-
+					<div className="App-header-wrap">
+						<div className="App-header-img">
+						</div>
+						<h3>Генератор ценников для Тимохи</h3>
+						<p>Ver: 1.0.2</p>
+						<div className="App-header-btn">Начать работу</div>
+					</div>
 				</header>
+
 				<section className="App-section-settings">
 					<SettingsCard onChangeWidth={this.onChangeWidth}
 												onChangeHeight={this.onChangeHeight}
