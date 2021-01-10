@@ -1,0 +1,41 @@
+.main {
+    max-width: 1500px;
+    width: 1000px;
+    min-height: 100vh;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+
+.wrap {
+    display: flex;
+    border: 1px dotted black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.data {
+    color: grey;
+    font-size: 20px;
+}
+
+
+@media screen {
+
+    .wrap {
+        page-break-inside: avoid;
+        /*page-break-after: auto;*/
+        /*height: 297mm;*/
+        width: 210mm;
+    }
+}
+
+@media print {
+    .main {
+        width: 210mm;
+        page-break-inside: avoid;
+    }
+}
