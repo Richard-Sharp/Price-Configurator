@@ -30,7 +30,7 @@ const PriceTag = ({name, price, edit = false, width, height, onDeletedItem, onAd
 					<div className={style.priceWrap}>
 						<div className={style.add}
 								 onClick={onAddNewItem}
-						></div>
+						> </div>
 						<div className={style.price} style={priceFontStyles} contentEditable={editMode}
 								 onDoubleClick={() => setEditMode('')}
 								 onBlur={() => setEditMode(false)}>
@@ -39,8 +39,7 @@ const PriceTag = ({name, price, edit = false, width, height, onDeletedItem, onAd
 
 						<div className={style.delete}
 								 onClick={onDeletedItem}
-						>
-						</div>
+						> </div>
 					</div>
 				</div>
 			</>

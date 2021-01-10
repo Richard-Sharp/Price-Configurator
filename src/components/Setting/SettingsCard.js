@@ -64,7 +64,7 @@ const SettingsCard = (props) => {
 					</div>
 
 					<div className={style.helpBlock}>
-						<a href="https://tools.icoder.uz/excel-to-json-converter.php"
+						<a href="http://beautifytools.com/excel-to-json-converter.php"
 							 target="_blank"
 							 title="Перейти к конвертеру (EXCEL => JSON)">
 							<div className={style.divConverter}>
