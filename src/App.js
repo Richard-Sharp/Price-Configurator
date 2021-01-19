@@ -98,7 +98,7 @@ class App extends PureComponent {
 						<div className="App-header-img">
 						</div>
 						<h3>Генератор ценников для Тимохи</h3>
-						<p>Ver: 1.0.2</p>
+						<p>Ver: 1.2.1</p>
 						<a href="#configurator">
 							<div className="App-header-btn">Начать работу</div>
 						</a>
